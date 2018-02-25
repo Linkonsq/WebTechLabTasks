@@ -75,14 +75,6 @@
 
 			fclose($fileHandle);
 
-			/*$info = array("Username"=>$username, "Password"=>$password, "ConfirmPassword"=>$confirmPassword, "FullName"=>$fullName, "Email"=>$email, "Phone"=>$phone);
-
-			setcookie("username", $username, time() + 86400);
-			setcookie("password", $password, time() + 86400);
-			setcookie("fullname", $fullName, time() + 86400);
-			setcookie("email", $email, time() + 86400);
-			setcookie("phone", $phone, time() + 86400);*/
-
 			header("location:index.php");
 		}
 	}

@@ -2,7 +2,6 @@
 	$username = "";
 	$password = "";
 	$errors = array();
-	//$info = array();
 
 	if (isset($_POST['register'])) {
 		header("location:register.php");
