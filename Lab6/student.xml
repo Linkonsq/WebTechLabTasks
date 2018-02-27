@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE studentList [
+	<!ELEMENT studentList (student*)>
+	<!ELEMENT student (name, id, courses)>
+	<!ELEMENT courses (course*)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT id (#PCDATA)>
+	<!ELEMENT cname (#PCDATA)>
+	<!ELEMENT csection (#PCDATA)>
+	<!ELEMENT cgrade (#PCDATA)>
+	<!ATTLIST student id ID #REQUIRED>
+]>
+<studentList>
+	<student>
+		<name>Linkon Siddique</name>
+		<id>15-28243-1</id>
+		<cgpa>3.24</cgpa>
+		<courses>
+			<course number='1'>
+				<cname>Web Tech</cname>
+				<csection>F</csection>
+				<cgrade>A+</cgrade>
+			</course>
+			<course number='2'>
+				<cname>Computer Graphics</cname>
+				<csection>F</csection>
+				<cgrade>A+</cgrade>
+			</course>
+		</courses>
+	</student>
+	<student>
+		<name>XYZ</name>
+		<id>15-xxxxx-1</id>
+		<cgpa>3.24</cgpa>
+		<courses>
+			<course number='1'>
+				<cname>Computer Fundamental</cname>
+				<csection>A</csection>
+				<cgrade>A</cgrade>
+			</course>
+			<course number='2'>
+				<cname>Programming Language 1</cname>
+				<csection>B</csection>
+				<cgrade>B</cgrade>
+			</course>
+		</courses>
+	</student>
+	<student>
+		<name>PQR</name>
+		<id>15-yyyyy-1</id>
+		<cgpa>3.44</cgpa>
+		<courses>
+			<course number='1'>
+				<cname>Computer Fundamental</cname>
+				<csection>A</csection>
+				<cgrade>A</cgrade>
+			</course>
+			<course number='2'>
+				<cname>Programming Language 1</cname>
+				<csection>B</csection>
+				<cgrade>B</cgrade>
+			</course>
+		</courses>
+	</student>
+</studentList>
