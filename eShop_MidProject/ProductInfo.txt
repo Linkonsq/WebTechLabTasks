@@ -1,0 +1,3 @@
+Eletronics,Refrigerator,500,5,fridge.jpg
+Eletronics,TV,500,10,tv.jpg
+Flowers,Rose,5,5,rose.jpg
